@@ -9,6 +9,12 @@ TagManager:
   - HealthBoxes
   - DefenderBoxes
   - Bullet
+  - Ground
+  - CraneHealth
+  - PlayerBase
+  - WallDefender
+  - TranparentWall
+  - WallBuilder
   layers:
   - Default
   - TransparentFX
