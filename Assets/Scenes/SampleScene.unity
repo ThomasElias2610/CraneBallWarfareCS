@@ -12456,14 +12456,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f16aa4ea53199594890d69f0ab6af4f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  imgFill: {fileID: 2127196391}
-  maxFill: 200
-  currentfill: 0
-  isActiveNow: 0
-  DefenderWallInstance: {fileID: 1443995330843636720, guid: d8c5ba12077c8124ba03cefa42191398, type: 3}
-  Canvas: {fileID: 156996997}
-  checkWallDefender: {fileID: 0}
-  height: 65.41
 --- !u!64 &278161882
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13430,14 +13422,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f16aa4ea53199594890d69f0ab6af4f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  imgFill: {fileID: 1228014485}
-  maxFill: 200
-  currentfill: 0
-  isActiveNow: 0
-  DefenderWallInstance: {fileID: 1443995330843636720, guid: d8c5ba12077c8124ba03cefa42191398, type: 3}
-  Canvas: {fileID: 119725684}
-  checkWallDefender: {fileID: 0}
-  height: 65.41
 --- !u!64 &340176910
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15032,15 +15016,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f3ed42ca02b4e543b4aa89a6de63378, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameLostPanel: {fileID: 836910379}
-  gameWinPanel: {fileID: 182568848}
-  txtTextMesh: {fileID: 1736952992}
-  txtTextMesh1: {fileID: 1703175980}
-  maxTime: 0
-  curTime: 0
-  curTimeMinutes: 0
-  MaxcurTimeMinutes: 10
-  seeTimedelta: 0
 --- !u!1 &527330017
 GameObject:
   m_ObjectHideFlags: 0
@@ -19125,10 +19100,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51333c48c7c76c048945a021ee3a98af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  curHealth: 0
-  MaxHealth: 200
-  imgHealth: {fileID: 1049471000}
-  gameManage: {fileID: 526970522}
 --- !u!1 &626699910
 GameObject:
   m_ObjectHideFlags: 0
@@ -20347,14 +20318,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f16aa4ea53199594890d69f0ab6af4f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  imgFill: {fileID: 32925196}
-  maxFill: 200
-  currentfill: 0
-  isActiveNow: 0
-  DefenderWallInstance: {fileID: 1443995330843636720, guid: d8c5ba12077c8124ba03cefa42191398, type: 3}
-  Canvas: {fileID: 66890069}
-  checkWallDefender: {fileID: 0}
-  height: 65.41
 --- !u!1 &836910379
 GameObject:
   m_ObjectHideFlags: 0
@@ -21540,14 +21503,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f16aa4ea53199594890d69f0ab6af4f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  imgFill: {fileID: 1365787630}
-  maxFill: 200
-  currentfill: 0
-  isActiveNow: 0
-  DefenderWallInstance: {fileID: 1443995330843636720, guid: d8c5ba12077c8124ba03cefa42191398, type: 3}
-  Canvas: {fileID: 378623206}
-  checkWallDefender: {fileID: 0}
-  height: 65.41
 --- !u!64 &997281342
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -22232,7 +22187,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1040220285
 MonoBehaviour:
   m_ObjectHideFlags: 0
