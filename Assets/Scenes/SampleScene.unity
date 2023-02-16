@@ -22922,8 +22922,8 @@ MonoBehaviour:
   - {fileID: 4326103031579841796, guid: 5d5c82842e748884cb473060166af0b4, type: 3}
   PerTime: 30
   CurrentTime: 0
-  MinTime: 3
-  MaxTime: 20
+  MinTime: 10
+  MaxTime: 30
   NumberOfSpaws: 0
   MinSpawn: 1
   MaxSpawn: 3
