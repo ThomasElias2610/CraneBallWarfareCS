@@ -17,7 +17,8 @@ public class GainHealthBox : MonoBehaviour
     {
         if(other.transform.gameObject.tag == "CraneHealth")
         {
-
+            CraneStats cStats = other.transform.gameObject.GetComponent<CraneStats>();
+            cStats.HealCrane(currentHealer);
             ParticleSystem ps = Instantiate(psDestruction, transform.position, Quaternion.identity);
             Destroy(ps, 3f);
             Destroy(this.gameObject);

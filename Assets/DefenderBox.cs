@@ -19,7 +19,14 @@ public class DefenderBox : MonoBehaviour
     {
         if(other.transform.gameObject.tag == "WallBuilder")
         {
-
+            WallBuilder wb = other.transform.gameObject.GetComponent<WallBuilder>();
+            if(wb.isActiveNow)
+            {
+                wb.fillTheBox(setFill);
+                ParticleSystem ps = Instantiate(psDestruction, transform.position, Quaternion.identity);
+                Destroy(ps, 6f);
+                Destroy(this.transform.parent.gameObject);
+            }
             
         }
     }

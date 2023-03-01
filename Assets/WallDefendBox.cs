@@ -13,6 +13,7 @@ public class WallDefendBox : MonoBehaviour
     public Image imgHealth;
     public ParticleSystem psDestruction;
 
+    public WallBuilder wb;
     // Start is called before the first frame update
     void Start()
     {
@@ -31,6 +32,7 @@ public class WallDefendBox : MonoBehaviour
         if (curHealth <= 0)
         {
             //Destroy
+            wb.setBackToActive();
             ParticleSystem psD = Instantiate(psDestruction, transform.position, Quaternion.identity);
             Destroy(psD, 6f);
             Destroy(this.gameObject);

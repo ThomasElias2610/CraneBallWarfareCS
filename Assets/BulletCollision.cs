@@ -31,7 +31,9 @@ public class BulletCollision : MonoBehaviour
             ParticleSystem psS = Instantiate(ps, transform.position, transform.rotation.normalized);
             Destroy(psS, 5f);
             //DownPlayerHealth
-
+            CraneStats crStats = other.transform.gameObject.GetComponentInParent<CraneStats>();
+            crStats.damagingCrane(Dmg);
+            Destroy(this.gameObject);
         }
         if(other.transform.gameObject.tag == "TranparentWall")
         {
@@ -43,7 +45,8 @@ public class BulletCollision : MonoBehaviour
         {
             ParticleSystem psS = Instantiate(ps, transform.position, transform.rotation.normalized);
             Destroy(psS, 5f);
-
+            WallDefendBox wdDefendBox = other.transform.gameObject.GetComponent<WallDefendBox>();
+            wdDefendBox.SetDamageBox(Dmg);
             Destroy(this.gameObject);
         }
     }
