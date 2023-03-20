@@ -1,0 +1,5 @@
+newmtl MATNORMALBOXES_3
+map_Kd clear-dark@2x.png
+Kd 0.1018128 0.6037736 0
+d 1
+
