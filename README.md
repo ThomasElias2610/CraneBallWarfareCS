@@ -2,32 +2,18 @@
 **University of haifa CS Project**
 
 [Git Hub Link](https://github.com/ThomasElias2610/CraneBallWarfareCS.git)
-<<<<<<< HEAD
-
- 
-Unity verison we are using, eg  `release/2021.3.11f1`
-=======
 ## Credits
 - Thomas Elias ID: 323088773
 - Manar Zoabi ID: 322858150
  
 Unity verison we are using, eg  `release/2021.3.11f1`
 
->>>>>>> 186b728f685df4f893e914649564016e351fe801
 ## General-info
 CraneBallWarfare is an engaging and challenging game that combines different warfare concepts to create an exciting and unique gaming experience.
 The game is about controlling a crane with the abilities to destroy objects with it’s steel ball and have the ability to catch boxes with it’s magnetic field to heal itself and build defensive walls to protect itself from the bullets, the goal is to stay alive during the clock countdown.
 
 ![](https://raw.githubusercontent.com/ThomasElias2610/CraneBallWarfareCS/main/Pics/Pic2.png)
 
-<<<<<<< HEAD
-
-The longer you survive, the harder it gets, you will be surrounded with a lot of enemies and needs to be quick and sharp in killing the enemies while staying alive.
-![enter image description here](https://raw.githubusercontent.com/ThomasElias2610/CraneBallWarfareCS/main/Pics/Pic1.png)
-
-The red boxes are built for healing the crane, grabbing them with the magnetic field and dropping them in the right place in the crane to increase it's health.                                                      ![https://raw.githubusercontent.com/ThomasElias2610/CraneBallWarfareCS/main/Pics/Health%202.png](https://raw.githubusercontent.com/ThomasElias2610/CraneBallWarfareCS/main/Pics/Health%202.png)
-Blue boxes are built for stopping the enemies bullets, when dropping them around the crane in the right spot will help to defend the enemies.
-=======
 The longer you survive, the harder it gets, you will be surrounded with a lot of enemies and needs to be quick and sharp in killing the enemies while staying alive.
 
 ![enter image description here](https://raw.githubusercontent.com/ThomasElias2610/CraneBallWarfareCS/main/Pics/Pic1.png)
@@ -37,7 +23,6 @@ The red boxes are built for healing the crane, grabbing them with the magnetic f
 
 Blue boxes are built for stopping the enemies bullets, when dropping them around the crane in the right spot will help to defend the enemies.
 
->>>>>>> 186b728f685df4f893e914649564016e351fe801
 ![https://raw.githubusercontent.com/ThomasElias2610/CraneBallWarfareCS/main/Pics/Armor.png](https://raw.githubusercontent.com/ThomasElias2610/CraneBallWarfareCS/main/Pics/Armor.png)
 
 
