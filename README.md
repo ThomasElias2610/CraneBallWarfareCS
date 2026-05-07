@@ -1,10 +1,8 @@
 ﻿# CraneBallWarfare
-**University of haifa CS Project**
-
-[Git Hub Link](https://github.com/ThomasElias2610/CraneBallWarfareCS.git)
+**University of Haifa CS Project**
 ## Credits
-- Thomas Elias ID: 323088773
-- Manar Zoabi ID: 322858150
+- Thomas Elias
+- Manar Zoabi
  
 Unity verison we are using, eg  `release/2021.3.11f1`
 
